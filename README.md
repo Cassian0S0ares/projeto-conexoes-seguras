@@ -33,35 +33,6 @@ O objetivo é oferecer exemplos claros, documentação e artefatos (PDFs, script
 
 ---
 
-## Como executar
-
-1. **Clonar o repositório**  
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-conexoes-seguras.git
-   cd projeto-conexoes-seguras
-   ```
-
-2. **Instalar dependências** (se houver scripts ou ferramentas específicas)  
-   ```bash
-   # Exemplo: instalar bibliotecas Python necessárias
-   pip install -r requirements.txt
-   ```
-
-3. **Visualizar os relatórios PDFs**  
-   Os PDFs contidos em cada módulo podem ser abertos com qualquer leitor de PDF.  
-   ```bash
-   # Exemplo usando o visualizador padrão
-   xdg-open Relatorio.pdf
-   xdg-open modulo1-sniffing/modulo1.pdf
-   xdg-open modulo2-tls/modulo2.pdf
-   xdg-open modulo3-sessao/modulo3.pdf
-   ```
-
-4. **Executar exemplos de código** (se houver scripts)  
-   Siga as instruções presentes nos próprios diretórios para rodar os exemplos.
-
----
-
 ## Requisitos
 
 - Sistema operacional Linux (Ubuntu/Debian ou similar).  
@@ -73,15 +44,9 @@ O objetivo é oferecer exemplos claros, documentação e artefatos (PDFs, script
 
 ## Contribuições
 
-Contribuições são bem-vindas! Abra uma *issue* ou um *pull request* para sugerir melhorias, relatar bugs ou adicionar novos exemplos.
+- Cassiano Luiz Brandes Soares
+- Davi Ferreira da Cunha
+- Guilherme Emanuel Gonçalves
+- João Vitor Charleaux
 
 ---
-
-## Licença
-
-Este projeto está licenciado sob a MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
-**Memória relevante:**  
-- O usuário pode ler PDFs; essa capacidade foi registrada para facilitar futuras consultas.  a
