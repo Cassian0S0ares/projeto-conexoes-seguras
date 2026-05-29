@@ -1,0 +1,11 @@
+{
+  "profile": "openai",
+  "env": {
+    "OPENAI_BASE_URL": "https://integrate.api.nvidia.com/v1",
+    "OPENAI_MODEL": "z-ai/glm-5.1",
+    "OPENAI_AUTH_HEADER": "Authorization",
+    "OPENAI_AUTH_SCHEME": "bearer",
+    "OPENAI_API_KEY": "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"
+  },
+  "createdAt": "2026-05-29T16:36:25.616Z"
+}
