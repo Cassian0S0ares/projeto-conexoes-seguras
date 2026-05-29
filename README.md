@@ -31,17 +31,6 @@ O objetivo é oferecer exemplos claros, documentação e artefatos (PDFs, script
 - **`modulo2-tls`** – Demonstração de handshakes TLS, configuração de certificados e testes de vulnerabilidades básicas.  
 - **`modulo3-sessao`** – Estratégias de manutenção de sessões, controle de estado e monitoramento de atividade.
 
----
-
-## Requisitos
-
-- Sistema operacional Linux (Ubuntu/Debian ou similar).  
-- Ferramentas de rede (`tcpdump`, `Wireshark`).  
-- Biblioteca OpenSSL (para testes TLS).  
-- Leitor de PDF (ex.: `evince`, `okular`).  
-
----
-
 ## Contribuições
 
 - Cassiano Luiz Brandes Soares
