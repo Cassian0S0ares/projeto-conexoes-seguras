@@ -613,7 +613,7 @@
 <div class="hero">
   <div class="hero-badge">&#x1F393; Projeto Acadêmico · Segurança de Redes</div>
   <h1><span class="hl">Conexões</span><br><span class="hl2">Seguras</span></h1>
-  <p class="hero-sub">Portal interativo do projeto de Cybersecurity abordando Sniffing de Pacotes, Criptografia TLS e Gestão de Sessões Web.</p>
+  <p class="hero-sub">Projeto educacional de cybersecurity que demonstra, de forma prática, três áreas fundamentais de redes e segurança da informação: captura de tráfego, conexões TLS e gerenciamento de sessões.</p>
   <div class="hero-actions">
     <a class="btn btn-primary" href="#modulos">Explorar Módulos</a>
     <a class="btn btn-ghost" href="#creditos">Ver Equipe</a>
@@ -644,7 +644,7 @@
       <div class="mod-number">// 01 — SNIFFING</div>
       <div class="mod-icon">📡</div>
       <div class="mod-title">Sniffing de Pacotes</div>
-      <div class="mod-desc">Análise de tráfego de rede com ferramentas de captura passiva. Identificação de protocolos, payloads não cifrados e vetores de interceptação.</div>
+      <div class="mod-desc">Captura e análise de tráfego de rede usando ferramentas como <code style="font-family:var(--mono);font-size:.8em;color:var(--accent)">tcpdump</code> e <code style="font-family:var(--mono);font-size:.8em;color:var(--accent)">Wireshark</code>. Exemplos práticos de interceptação de pacotes em camadas 2 e 3.</div>
       <div class="mod-links">
         <span class="mod-link" onclick="openModal('modulo1.pdf', 'Módulo 1 — Sniffing'); event.stopPropagation()">📄 modulo1.pdf</span>
         <span class="mod-link" onclick="toggleModule(1); event.stopPropagation()">🔍 Evidências</span>
@@ -657,7 +657,7 @@
       <div class="mod-number">// 02 — TLS</div>
       <div class="mod-icon">🔐</div>
       <div class="mod-title">Criptografia TLS</div>
-      <div class="mod-desc">Handshake TLS, certificados X.509, cipher suites e análise de comunicações cifradas. Comparativo entre versões TLS 1.2 e 1.3.</div>
+      <div class="mod-desc">Demonstração de handshakes TLS, configuração de certificados e testes de vulnerabilidades básicas. Implementação e verificação de conexões seguras via SSL/TLS.</div>
       <div class="mod-links">
         <span class="mod-link" onclick="openModal('modulo2.pdf', 'Módulo 2 — TLS'); event.stopPropagation()">📄 modulo2.pdf</span>
         <span class="mod-link" onclick="toggleModule(2); event.stopPropagation()">🔍 Evidências</span>
@@ -670,7 +670,7 @@
       <div class="mod-number">// 03 — SESSÕES</div>
       <div class="mod-icon">🍪</div>
       <div class="mod-title">Gestão de Sessões</div>
-      <div class="mod-desc">Cookies de sessão, tokens JWT, ataques de session hijacking e fixation. Boas práticas de autenticação e controle de sessão segura.</div>
+      <div class="mod-desc">Estratégias de manutenção de sessões, controle de estado e monitoramento de atividade. Gerenciamento e monitoramento de sessões de comunicação em redes.</div>
       <div class="mod-links">
         <span class="mod-link" onclick="openModal('modulo3.pdf', 'Módulo 3 — Sessões'); event.stopPropagation()">📄 modulo3.pdf</span>
         <span class="mod-link" onclick="toggleModule(3); event.stopPropagation()">🔍 Evidências</span>
@@ -733,10 +733,6 @@
               <span class="ev-icon">🖼️</span>
               <span class="ev-label">Captura 1<br>Módulo 2</span>
             </div>
-            <div class="ev-thumb" onclick="openModal('evidencias/Captura 1 - Modulo 3.png', 'Captura 1 — Módulo 3')">
-              <span class="ev-icon">🖼️</span>
-              <span class="ev-label">Captura 1<br>Módulo 3</span>
-            </div>
             <div class="ev-thumb" onclick="openModal('evidencias/Captura 2 - Modulo 2.png', 'Captura 2 — Módulo 2')">
               <span class="ev-icon">🖼️</span>
               <span class="ev-label">Captura 2<br>Módulo 2</span>
@@ -782,12 +778,12 @@
 <section id="relatorio">
   <div class="section-label">// DOCUMENTO CENTRAL</div>
   <h2 class="section-title">Relatório do Projeto</h2>
-  <p class="section-desc">Documento consolidado com todos os módulos, análises e conclusões do projeto Conexões Seguras.</p>
+  <p class="section-desc">Relatório completo do projeto — consolida os três módulos, exemplos práticos e artefatos produzidos pela equipe.</p>
   <div class="report-card">
     <div class="report-icon">📋</div>
     <div class="report-info">
       <h3>Relatorio.pdf</h3>
-      <p>Relatório técnico completo integrando os três módulos de Sniffing, TLS e Sessões. Inclui metodologias, resultados e análises críticas do projeto.</p>
+      <p>Documentação completa do projeto Conexões Seguras, cobrindo os fundamentos e demonstrações práticas de Sniffing, TLS e Sessões — com exemplos claros voltados a estudantes e profissionais de segurança da informação.</p>
       <a class="btn btn-report" onclick="openModal('Relatorio.pdf', 'Relatório Completo do Projeto')">📄 Abrir Relatório Completo</a>
     </div>
   </div>
@@ -799,7 +795,7 @@
 <section id="creditos">
   <div class="section-label">// EQUIPE</div>
   <h2 class="section-title">Contribuidores</h2>
-  <p class="section-desc">Projeto desenvolvido como parte de atividade acadêmica em segurança de redes.</p>
+  <p class="section-desc">Projeto desenvolvido por quatro estudantes como parte de atividade acadêmica em segurança de redes e cybersecurity.</p>
   <div class="credits-grid">
     <div class="credit-card">
       <div class="credit-avatar">CL</div>
